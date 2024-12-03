@@ -1,0 +1,137 @@
+/* style image header */
+/* .home_left_img img{
+    margin: -70px 0px 0px -105px;
+} */
+.home_left_img{
+    padding-top: 96px !important;
+}
+.website_image img {
+    position: relative;
+    right: 19%;
+    height: 586px;
+}
+/* padding 33 px */
+.p-33 {
+    padding-top: 33px;
+    padding-bottom: 120px;
+}
+
+.img-fluid {
+    border-radius: 3.25rem !important;
+}
+
+.projects_item {
+    margin: auto auto 30px;
+    width: 262px;
+}
+
+/* to animation */
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+    top: 0;
+    left: 0;
+}
+
+.ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+.card_project:hover {
+    transform: scale(0.9);
+}
+.card_project {
+    transition: transform 0.5s;
+    margin-right: 4px;
+}
+/* animation contact */
+.wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.my_name {
+    font-family: "PT Serif", serif !important;
+}
+.title {
+    /* font-family: 'Linearicons-Free' !important; */
+}
+ .home_left_img{
+   	padding-top: 90px !important;
+   }
+
+/* * ||-------------------------------------------------------------------------------*/
+/* * ||                      animation to show element when scroll                     ||
+/* * ||-------------------------------------------------------------------------------*/
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+.Johnston
+{
+    width: 426px;
+    height: 629px;
+}
+.Raynor
+{
+    width: 156px;
+    height: 102px;
+}

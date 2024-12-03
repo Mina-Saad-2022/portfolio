@@ -1,0 +1,77 @@
+/* ! ||--------------------------------------------------------------------------------*/
+/* ! ||                                  style footer                                  */
+/* ! ||--------------------------------------------------------------------------------*/
+.app-wrapper-footer {
+    width: 100%;
+    text-align: center;
+}
+.image_project {
+    width: 360px;
+    height: 339px;
+}
+/* ! ||--------------------------------------------------------------------------------*/
+/* ! ||                              style for tap content                             */
+/* ! ||--------------------------------------------------------------------------------*/
+.metismenu a,
+.metismenu li a {
+    text-decoration: none;
+}
+.tab-content .tab {
+    display: none;
+}
+
+.tab-content .tab.active {
+    display: block;
+}
+
+/* ! ||--------------------------------------------------------------------------------*/
+/* ! ||                            style for clock and date                            */
+/* ! ||--------------------------------------------------------------------------------*/
+
+.clock {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -14px;
+    color: #6c757d;
+}
+
+.date {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #6c757d;
+}
+.error {
+    font-family: serif;
+}
+.btn-group a {
+    border: none !important;
+}
+.app-wrapper-footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 90px;
+    padding: 20px;
+    color: #666;
+}
+
+#imagePreview img{
+    border-radius: var(--bs-border-radius);
+}
+.Preview {
+    width: 180px;
+    height: 100px;
+}
+.Preview img{
+    width: 60%;
+    height:100%;
+    border-radius: 0.25rem !important;
+}
+.mm{
+    width: 60px;
+    /* height: 339px; */
+}
